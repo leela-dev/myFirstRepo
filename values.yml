@@ -1,3 +1,3 @@
 myRepo:
-  gitProvider: GIT
+  gitProvider: leelaGIT
   path: jfrog/jfrog-pipelines-simple-example
