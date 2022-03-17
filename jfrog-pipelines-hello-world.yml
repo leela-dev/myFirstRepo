@@ -20,7 +20,7 @@ resources:
       runID: 1
 
 pipelines:
-  - name: my_first_pipeline
+  - name: my_pipeline_1
     steps:
       - name: p1_s1
         type: Bash
@@ -68,7 +68,7 @@ pipelines:
             # Utility functions documentation: https://www.jfrog.com/confluence/display/JFROG/Pipelines+Utility+Functions
             - write_output myPropertyBag commitSha=$commitSha runID=$current_runid
 
-  - name: my_second_pipeline
+  - name: my_pipeline_2
     steps:
       - name: p2_s1
         type: Bash
