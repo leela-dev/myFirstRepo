@@ -5,7 +5,7 @@ resources:
   - name: myFirstRepo
     type: GitRepo
     configuration:
-      # SCM integration where the repository is located
+      # SCM integration where the repo is located
       gitProvider: {{ .Values.myFirstRepo.gitProvider }} # this will be replaced from values.yml
       # Repository path, including org name/repo name
       path: {{ .Values.myFirstRepo.path }} # this will be replaced from values.yml
