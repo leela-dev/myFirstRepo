@@ -55,6 +55,8 @@ pipelines:
       - name: approvalGatesStep
         type: Bash
         configuration:
+          inputSteps:
+            - name: p1_s1      
           requiresApproval: true
         execution:
           onExecute:
@@ -64,7 +66,7 @@ pipelines:
         type: Bash
         configuration:
           inputSteps:
-            - name: p1_s2
+            - name: approvalGatesStep
           outputResources:
             - name: myPropertyBag
         execution:
