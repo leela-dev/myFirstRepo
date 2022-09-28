@@ -2,7 +2,5 @@
 
 This is a simple "Hello world"  example that gets you up and running with JFrog Pipelines Section.
 Detailed instructions on how to run this sample, as well as explanation of the configuration, is in the JFrog Pipelines Quickstart documentation:
-
-d
-
+csca
 [Pipelines Example: Hello World](https://www.jfrog.com/confluence/display/JFROG/Pipeline+Example%3A+Hello+World).
