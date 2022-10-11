@@ -1,6 +1,6 @@
 # jfrog-pipelines-simple-example   
 
-This is a simple "Hello world"  example that gets you up and running with JFrog Pipelines Section.
+This is a simple "Hello world"  example that gets you up and running with JFrog Pipelines Sections.
 
 Detailed instructions on how to run this sample, as well as explanation of the configuration, is in the JFrog Pipelines Quickstart documentation:
 
