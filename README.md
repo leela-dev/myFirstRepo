@@ -1,4 +1,4 @@
-# jfrog-pipelines-simple-example   
+# jfrog-pipelines-simple-example  
 
 This is a simple "Hello world" example pipeline that gets you up and running with JFrog Pipelines Sections.
 
